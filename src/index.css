@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.game_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
+  padding-top: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board {
+  width: 250px;
+}
+
+.game_row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.game_heading {
+  margin-top: 0;
+  font-size: 20px;
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 10px;
+  color:#ff5a5a;
+}
+
+
+
+.game_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: calc(250px / 3);
+  height: calc(250px / 3);
+  font-size: 32px;
+  color: #fff;
+  background-color: #110f0f;
+  border: 1px solid #aaa;
+}
+
+.btn {
+  padding: 12px 16px;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #fff;
+  background: transparent linear-gradient(83deg, #FE6249 0%, #FE3169FA 100%) 0% 0% no-repeat padding-box;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color .25s ease-in-out;
+}
